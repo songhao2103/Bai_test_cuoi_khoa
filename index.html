@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main_content">
+      <div class="content">
+        <!-- quay -->
+        <div class="quay">
+          <div class="images">
+            <img id="item_quay_1" src="./img/bau.png" alt="" />
+            <img id="item_quay_2" src="./img/bau.png" alt="" />
+            <img id="item_quay_3" src="./img/bau.png" alt="" />
+          </div>
+          <button id="btn_quay" class="btn">Quay</button>
+        </div>
+        <!-- cược -->
+        <div class="cuoc">
+          <div class="list_items">
+            <div class="item">
+              <p class="so_luong1">0</p>
+              <img id="img_1" src="./img/bau.png" alt="" />
+            </div>
+            <div class="item">
+              <p class="so_luong2">0</p>
+              <img id="img_2" src="./img/ca.png" alt="" />
+            </div>
+            <div class="item">
+              <p class="so_luong3">0</p>
+              <img id="img_3" src="./img/cua.png" alt="" />
+            </div>
+            <div class="item">
+              <p class="so_luong4">0</p>
+              <img id="img_4" src="./img/ga.png" alt="" />
+            </div>
+            <div class="item">
+              <p class="so_luong5">0</p>
+              <img id="img_5" src="./img/huou.png" alt="" />
+            </div>
+            <div class="item">
+              <p class="so_luong6">0</p>
+              <img id="img_6" src="./img/tom.png" alt="" />
+            </div>
+          </div>
+
+          <div class="bot">
+            <pre>
+                Lưu ý: 
+                - Số lần đặt ở mỗi hình sẽ là số lần xuất hiện của các hình trên kết quả
+                - Tổng số lần đặt tối đa là 3   
+              </pre
+            >
+            <button id="btn_cuoc" class="btn">Đặt lại</button>
+          </div>
+        </div>
+
+        <!-- thông báo -->
+        <div class="box_alert">
+          <div  class="alert">
+            <p id="alert_p">Bạn đã đoán sai với kết quả là:</p>
+            <br />
+            <p id="ket_qua"></p>
+          </div>
+          <div><button id="btn_alert" class="btn">Ok</button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script src="./main.js"></script>
+  </body>
+</html>

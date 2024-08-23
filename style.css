@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+.main_content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #681616;
+}
+.content {
+  width: 1000px;
+  background-color: orange;
+  padding: 30px;
+  position: relative;
+  border-radius: 30px;
+  box-shadow: inset 0 0 10px #000;
+  border: 20px solid rgb(76, 49, 197);
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  background-color: rebeccapurple;
+  padding: 20px;
+  box-shadow: 3px 3px 3px black;
+  cursor: pointer;
+}
+
+.btn {
+  height: 40px;
+  width: 100px;
+  background-color: hsl(244, 93%, 27%);
+  color: white;
+  cursor: pointer;
+}
+.quay {
+  display: flex;
+  height: 200px;
+  position: relative;
+}
+.quay .images {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 20px;
+}
+
+.quay .btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.cuoc {
+  margin-top: 30px;
+  display: flex;
+  height: 220px;
+  align-items: center;
+  flex-direction: column;
+}
+.cuoc .list_items {
+  display: flex;
+  gap: 20px;
+}
+
+.cuoc .bot {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.item {
+  display: flex;
+  position: relative;
+}
+.item:hover {
+  transform: scale(1.05);
+}
+.item p {
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.box_alert {
+  width: 250px;
+  height: 150px;
+  background-color: rgb(100, 98, 146);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 20px;
+  display: none;
+}
+
+.alert {
+  text-align: center;
+  /* background-color: red; */
+}
+.alert p,
+.alert span {
+  color: rgb(4, 6, 112);
+}
+#btn_alert {
+  margin-top: 20px;
+  margin-left: 55px;
+}
